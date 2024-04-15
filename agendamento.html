@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Agendamento de Consulta</h2>
+    <form action="">
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+          <label for="Nome">Nome Completo: </label>
+          <input type="text" name="campo_nome" id="nome">
+          <br>
+          <label for="email">Endereço de Email: </label>
+          <input type="email" name="campo_email" id="email">
+          <br>
+          <label for="telefone">Telefone:</label>
+          <input type="telefone" name="campo_telefone id=telefone">
+          <br>
+          <label for="Idade">Idade</label>
+          <input type="Idade" name="Campo_idade id=idade">
+          <br>
+        
+       
+        <label for="assunto">Especialidade Médica</label>
+        <select name="campo_assunto" id="assunto">
+           <option value="">Selecione uma Especialidade</option>
+          <option value="assunto_1">Cardiologia</option>
+          <option value="assunto_2">Dermatologia</option>
+          <option value="assunto_3">Ginecologia</option>
+          <option value="assunto_4">Ortopedia</option>
+          <option value="assunto_5">Pediatria</option>
+
+        </select>
+        </fieldset>
+        <fieldset>
+             <legend>Referencia de horário</legend>
+             <label for="date">Data Preferencial:</label>
+             <input type="date" id="date" name="date">
+             <br>
+            
+             <label for="time">Horário Preferencial:</label>
+             <input type="time" id="time" name="time">
+        </fieldset>
+        <fieldset>
+            <legend>Observações Adicionais</legend>
+           
+            <textarea id="mensagem" name="mensagem" placeholder="Digite aqui suas  observaçoes" required></textarea>
+            
+            
+        </fieldset>
+        <label for="agendar">Agendar Consulta</label>
+
+            <input type="submit" value="Enviar">
+</body>
+</html>
